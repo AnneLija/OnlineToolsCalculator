@@ -1,0 +1,30 @@
+.header{
+    background-color: #3836B2;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+/* @media only screen and (min-width:320px) {
+    .header {
+      background-color:#5f6365;
+    }
+  } */
+  
+  @media only screen and (max-width: 640px) {
+    .header {
+      background-color:#e22d7b !important;
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 768px) {
+    .header {
+      background-color:#1b87cf !important;
+    }
+  }
+ 
+  @media only screen and (max-width: 1024px) {
+    .header {
+      background-color:#3836B2;
+    }
+  }

@@ -1,0 +1,8 @@
+.container-row-2column{
+    font-family:shabnam;
+    margin-top:200px;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content:center;
+}

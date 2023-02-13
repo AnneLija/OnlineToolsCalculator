@@ -1,0 +1,128 @@
+.container-row-4column{
+    font-family:shabnam;
+    margin-top:200px;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content:center;
+    
+}
+.container-row-4column label{
+    color:#3836B2;
+}
+#input-row{
+    width:170px;
+    padding: 5px;
+    font-family:shabnam;
+    border:1px solid #594fc7;
+    border-radius:5px;
+    height:20px;
+   
+}
+select{
+    padding:5px;
+    font-family:shabnam ;
+    color: #3836B2  ;
+    border:1px solid #594fc7;
+    height:30px;
+    width:170px;
+    border-radius:5px;
+ 
+}
+@font-face {
+    font-family:shabnam;
+    src: url('shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+         url('shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+         url('shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @media only screen and (min-width:750px) {
+    .box-help  {
+      width:700px;
+    }
+  }
+  @media only screen and (min-width: 481px) {
+    .box-help  {
+      width:700px;
+    }
+  }
+  @media only screen and (min-width: 490px) {
+    .box-help  {
+      width:570px;
+    }
+  }
+  @media only screen and (min-width: 712px) {
+    .box-help  {
+      width:800px;
+    }
+  }
+  @media only screen and (min-width: 690px) {
+    .box-help  {
+      width:900px;
+    }
+  }
+ 
+
+  @media only screen and (min-width: 769px) {
+    .box-help  {
+        width:1000px;
+    }
+  }
+ 
+  @media only screen and (min-width: 1025px) {
+    .box-help  {
+        width:100%;
+    }
+  }
+  @media only screen and (max-width: 712px) {
+    .box-help  {
+        width:430px;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .container-row-4column  {
+     display: flex;
+     flex-direction: column;
+    
+    }
+  }
+  @media only screen and (max-width:1024px) {
+    .container-row-4column  {
+      position:relative;
+     margin-right:900px;
+    
+    }
+  }
+  @media only screen and (min-width:481px) {
+    .container-row-4column  {
+      position:relative;
+     margin-right:90px;
+    
+    }
+  }
+  .button-calc{
+    background-color:#594fc7;
+    color: #fff;
+    width:100px;
+    font-size:15px;
+    height:40px;
+    position: absolute;
+    margin-top:90px;
+    font-family:shabnam;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: top;
+    /* padding-top:6px;
+    padding-right:30px; */
+  
+
+  }
+  @media only screen and (max-width: 1024px) {
+    .button-calc {
+      position: absolute;
+      margin-top:400px;
+    }
+  }
+ 

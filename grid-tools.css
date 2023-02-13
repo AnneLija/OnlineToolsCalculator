@@ -1,0 +1,38 @@
+.grid-container-calc{
+    place-content: center;
+}
+.container-each-calc-tools{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    box-shadow: rgba(138, 126, 199, 0.5) 0px 3px 8px;
+    font-size:20px;
+    font-weight: 500;
+    padding:30px;
+   
+    
+}
+#grid-container-calc{
+    gap:350px;
+    margin-right:170px;
+}
+.container-each-calc-tools span{
+    font-size:16px;
+    position: absolute;
+    margin-top:5px;
+  
+}
+.span-des{
+    position: absolute;
+   padding-top:30px;
+   align-items: center;
+}
+.span-container{
+    display: flex;
+    flex-direction: column;
+   place-items: center;
+   
+}

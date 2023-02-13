@@ -1,0 +1,24 @@
+.titr-tool{
+    color: cornflowerblue;
+    font-family:shabnam ;
+    font-size:20px;
+    margin-top:10px;
+}
+@font-face {
+    font-family:shabnam;
+    src: url('shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+         url('shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+         url('shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .box-help{
+    background-color:#FE5B55;
+    color:#fff;
+    font-family:shabnam;
+    padding:20px;
+    position: absolute;
+    margin-top:20px;
+    width:100%;
+  }

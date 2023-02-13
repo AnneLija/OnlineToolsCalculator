@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+
+    <style>
+
+        .tools-specially-calc{
+            display: grid;
+            gap:30px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            margin-top:30px;
+            margin-right:10%;
+           
+           
+        }
+        .tools-specially-calc div{
+            
+            background-color:#FE5B55;  
+            text-align: center; 
+            width:400px;
+            height:100px;
+            border-radius:5px;
+            color:#fff;
+            font-family:shabnam;
+            padding-top:10%;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); 
+           
+        }
+      
+
+
+        @font-face {
+    font-family:shabnam;
+    src: url('shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+         url('shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+         url('shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+    </style>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="header.css"/>
+    <link rel="stylesheet" href="dropdownheader.css"/>
+    <link rel="stylesheet" href="gridcalchome.css"/>
+    <link rel="stylesheet" href="footer.css"/>
+    <link rel="stylesheet" href="headercalc.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!----------------------------- Header -------------------------------->
+    <div class="main-head">
+        <div class="row-cat-home">
+    <div>
+        <span>
+            خانه
+        </span>
+    </div>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"><i id="calc-icon-category"class="ti ti-calculator"></i>
+            <span id="category-label-list">دسته بندی</span>
+          <i id="dropdownicon-category"class="ti ti-arrow-big-down-lines-filled"></i>
+      </button>
+        <div id="category-dropdown" class="category-dropdown-list">
+          <!-- <a href="#home">زمان</a>
+          <a href="#about">مالی</a>
+          <a href="#contact">حقوقی</a>
+          <a href="#contact">اعداد</a>
+          <a href="#contact">زنان</a>
+          <a href="#contact">سلامت</a>
+          <a href="#contact">ریاضی</a> -->
+       
+      
+        </div>
+      </div>
+    
+    </div>
+    <div class="input-search">
+        <input placeholder="ابزار مورد نظر خود را جستجو نمایید...."/>
+        <i id="searchicon"class="ti ti-search"></i>
+    </div>
+    
+
+</div>
+
+</div>
+<!----------------------------- Header -------------------------------->
+
+
+
+<div class="tools-specially-calc">
+    <div>تاریخ امروز<br/>ساعت و تاریخ ایران</div>
+    <div>تقویم<br/>تقویم شمسی، قمری و میلادی</div>
+    <div>تبدیل تاریخ<br/>3 نوع شمسی، قمری و میلادی</div>
+    <div>محاسبه سن<br/>با تاریخ شمسی، میلادی و قمری</div>
+    <div>اوقات شرعی<br/>زمان اذان و ساعت های شرعی</div>
+    <div>تنظیم زنگ هشدار آنلاین<br/>تنظیم آلارم</div>
+    <div>شمارش معکوس زمان<br/>ثانیه شمار آنلاین</div>
+    <div>کورنومتر آنلاین<br/>ثبت و مقایسه رکورد</div>
+    <div>محاسبه اختلاف دو تاریخ<br/>تعداد روز و ماه و سال</div>
+  </div>
+
+
+ <!-- -------------------------------------Footer------------------------------ -->
+       
+ <div class="footer-container">
+    <div class="footer1">
+
+       <a id="footerlinks"href="#"><div>حمایت مالی</div></a> 
+        <a id="footerlinks"href="#"><div>تماس با ما</div></a>
+        <a id="footerlinks"href="#"><div>درباره ما</div></a>
+        <a id="footerlinks"href="#"><div>سوالات رایج</div></a>
+        <a id="footerlinks"href="#"><div>تبلیغات</div></a>
+
+
+    </div>
+    
+    <hr style="color: #fff;width:1000px;float: right;margin-right:370px;margin-top:10px;"/>
+
+  <div class="footer11">
+    <br/><br/>
+    وب سایت  با هدف ارائه محاسبات و ابزارهای آنلاین شروع به کار کرده است، محاسبات در زمینه های مختلف مانند محاسبه آنلاین سود وام بانکی، محاسبه سود سپرده، محاسبه آنلاین مهریه به نرخ روز و... که وقت گیر و پیجیده میباشد به راحتی در کیت ست قابل محاسبه می باشد. همچنین در کیت ست ابزارهای که هر جایی ممکن است مورد نیاز باشد مانند تقویم رسمی ایران، اوقات شرعی، ساخت آنلاین بارکد و… در دسترس می باشد.
+</div>
+
+<div class="social-container">
+    <div>
+    <i id="social"class="ti ti-brand-android"></i>
+</div>
+<div>
+    <i id="social"class="ti ti-brand-instagram"></i>
+</div>
+
+<div>
+    <i id="social"class="ti ti-brand-telegram"></i>
+
+</div>
+
+</div>
+</div>
+
+<!-- <div>
+<img class="enamad"src="enamad.png"/>
+</div>
+
+<i id="copyrighticon"class="ti ti-copyright"></i>
+<div class="copyrightalitools">
+<span>
+تمامی حقوق برای علی تولز محفوظ می باشد
+
+</span>
+</div>
+-->
+
+    
+</body>
+</html>

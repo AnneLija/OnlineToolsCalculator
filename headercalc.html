@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+    <style>
+        @font-face {
+    font-family:shabnam;
+    src: url('shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+         url('shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+         url('shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+        .main-head{
+            width:100%;
+            background-color:#3836B2;
+            min-height:280px;
+           
+           
+          
+            
+        }
+        .row-cat-home{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:200px;
+            padding-top:50px;
+        }
+        .main-head span{
+            color: #ffff;
+            font-size:20px;
+            font-family:shabnam;
+        }
+        .main-head select{
+            color: #3836B2;
+            width:300px;
+            height:40px;
+            border-radius:5px;
+            font-size:20px;
+            font-family:shabnam;
+        }
+        .input-search{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+           
+        }
+        .input-search input{
+            width:600px;
+            margin-top:90px;
+            padding:10px;
+            border-radius:5px;
+            border:1px solid transparent;
+            font-family:shabnam;
+        }
+        i{
+            font-size:25px;
+        }
+       #dropdownicon-category{
+            color: #3836B2;
+        }
+        #calc-icon-category{
+            color: #3836B2;
+        }
+        #category-label-list{
+            color: #3836B2;
+           
+        }
+        button{
+            width:250px;
+           border-radius:5px;
+           border:1px solid transparent;
+           display: flex;
+           gap:30px;
+        }
+        ::placeholder{
+            color: #3836B2;
+            font-size:18px;
+        }
+        #searchicon{
+            color: #ffff;
+            margin-top:93px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-head">
+        <div class="row-cat-home">
+
+
+
+            <div>
+                <span>
+                    خانه
+                </span>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i id="calc-icon-category"class="ti ti-calculator"></i>
+                    <span id="category-label-list">دسته بندی</span>
+                  <i id="dropdownicon-category"class="ti ti-arrow-big-down-filled"></i>
+              </button>
+                <div id="category-dropdown" class="category-dropdown-list">
+                  <!-- <a href="#home">زمان</a>
+                  <a href="#about">مالی</a>
+                  <a href="#contact">حقوقی</a>
+                  <a href="#contact">اعداد</a>
+                  <a href="#contact">زنان</a>
+                  <a href="#contact">سلامت</a>
+                  <a href="#contact">ریاضی</a> -->
+               
+              
+                </div>
+              </div>
+            
+            </div>
+            <div class="input-search">
+                <input placeholder="ابزار مورد نظر خود را جستجو نمایید...."/>
+                <i id="searchicon"class="ti ti-search"></i>
+            </div>
+            
+
+        </div>
+        
+    </div>
+</body>
+</html>

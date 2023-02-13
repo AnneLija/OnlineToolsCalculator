@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <style>
+        @font-face {
+  font-family: shabnam;
+  src: url('shabnam-font-v2.4.0/Shabnam.eot');
+  src: url('shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+    url('shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+    url('shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+        .header-main-container{
+            background-color:#3836B2;
+           min-height:280px;
+           
+        }
+        .row-tailwind-nav{
+            display:flex;
+           flex-wrap: nowrap;
+           gap:30px;
+           justify-content: center;
+          
+        }
+        .row-tailwind-nav span{
+            color:#fff;
+            font-family:shabnam;
+        }
+        .row-tailwind-nav select{
+            color: #3836B2;
+            height:40px;
+            width:300px;
+            border-radius:3px;
+        }
+       .dropdown span{
+        color: #3836B2;
+       }
+        .dropbtn {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.dropdown button {
+  font-size: 20px;
+  width: 300px;
+}
+.category-dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 400px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.category-dropdown-list a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.calc-icon-category{
+    color: #3836B2;
+}
+#calc-icon-category{
+    color: #3836B2;
+}
+#dropdownicon-category{
+    color: #3836B2;
+
+}
+.row-tailwind-nav{
+    position: absolute;
+    margin-top:30px;
+    margin-right:750px;
+
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header-main-container">
+        <div class="row-tailwind-nav">
+            <span>
+                خانه
+            </span>
+           
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i id="calc-icon-category"class="ti ti-calculator"></i>
+                    <span id="category-label-list">دسته بندی</span>
+                  <i id="dropdownicon-category"class="ti ti-arrow-down-circle"></i>
+              </button>
+                <div id="category-dropdown" class="category-dropdown-list">
+                  <a href="#home">زمان</a>
+                  <a href="#about">مالی</a>
+                  <a href="#contact">حقوقی</a>
+                  <a href="#contact">اعداد</a>
+                  <a href="#contact">زنان</a>
+                  <a href="#contact">سلامت</a>
+                  <a href="#contact">ریاضی</a>
+               
+              
+                </div>
+              </div>
+        </div>
+    </div>
+    
+</body>
+</html>

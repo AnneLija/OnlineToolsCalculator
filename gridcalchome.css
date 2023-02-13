@@ -1,0 +1,81 @@
+
+.grid-container-calc {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 90px;
+    gap: 200px;
+    background-color:transparent;
+    width: 500px;
+    background-color:transparent;
+    position: absolute;
+   right:8%;
+    font-family:shabnam;
+    font-size:25px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .grid-container-calc i{
+    font-size:50px;
+    margin-right:49px;  
+    color:#fff;
+
+  }
+  .grid-container-calc span{
+    position: relative ;
+    margin-top:40px;
+    margin-right:49px;
+    color: #fff;
+    
+   
+  }
+  .container-each-calc {
+    display: flex;
+    flex-direction: column;
+    background-color:#FE5B55;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: rgba(138, 126, 199, 0.5) 0px 3px 8px;
+    font-size:20px;
+    font-weight: 500;
+    padding:30px;
+    margin-right:10%;
+   
+    
+   
+  }
+  @media only screen and (min-width: 481px) {
+    .grid-container-calc {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-right:5%;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+    .grid-container-calc {
+        display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-right:10%;
+    }
+  }
+ 
+  @media only screen and (min-width: 1025px) {
+    .grid-container-calc{
+        display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-right:20%;
+    }
+  }
+  
+
+  @font-face {
+    font-family:shabnam;
+    src: url('shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+         url('shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+         url('shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

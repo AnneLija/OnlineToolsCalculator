@@ -1,0 +1,83 @@
+@font-face {
+    font-family:shabnam;
+    src: url('shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'),
+         url('shabnam-font-v2.4.0/Shabnam.woff') format('woff'),
+         url('shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+        .main-head{
+            width:100%;
+            background-color:#594fc7;
+            min-height:280px;    
+        }
+        .row-cat-home{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:200px;
+            padding-top:50px;
+        }
+        .main-head span{
+            color: #ffff;
+            font-size:20px;
+            font-family:shabnam;
+        }
+        .main-head select{
+            color: #594fc7;
+            width:300px;
+            height:40px;
+            border-radius:5px;
+            font-size:20px;
+            font-family:shabnam;
+        }
+        .input-search{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+           
+        }
+        .input-search input{
+            width:640px;
+            margin-top:90px;
+            padding:10px;
+            border-radius:5px;
+            border:1px solid transparent;
+            font-family:shabnam;
+            position: absolute;
+            margin-right:10px;
+        }
+        i{
+            font-size:25px;
+        }
+       #dropdownicon-category{
+            color: #b51010;
+            font-size:40px;
+            
+        }
+        #calc-icon-category{
+            color: #594fc7;
+        }
+        #category-label-list{
+            color: #594fc7;
+           
+        }
+        button{
+            width:420px;
+           border-radius:5px;
+           border:1px solid transparent;
+           display: flex;
+           gap:30px;
+        }
+        .input-search input::placeholder{
+            color: #594fc7;
+            font-size:18px;
+        }
+        #searchicon{
+            color:#594fc7;
+            margin-top:95px;
+            position: relative;
+            margin-right:640px;
+        }
+      
